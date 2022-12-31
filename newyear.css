@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(#0a1519, #0c0842);
+    background: -webkit-linear-gradient(#0a1519, #0c0842);
+    background: -moz-linear-gradient(#0a1519, #0c0842);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Allura', cursive;
+    overflow: hidden;
+   
+    
+}
+
+.container{
+    font-size: 5rem;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+
+}
+
+.container > span{
+    color: white;
+    animation: glow 3.5s ease-in-out infinite;
+}
+
+@keyframes glow{
+    0%, 100%{
+        color: #fff;
+        text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
+    }
+    10%, 90%{
+        color: rgb(253, 186, 62);
+        text-shadow: none;
+    }
+}
+
+.container > span:nth-child(2){
+    animation-delay: .2s ;
+}
+.container > span:nth-child(3){
+    animation-delay: .4s ;
+}
+.container > span:nth-child(4){
+    animation-delay: .6s;
+}
+.container > span:nth-child(5){
+    animation-delay: .8s;
+}
+.container > span:nth-child(6){
+    animation-delay: .10s;
+}
+.container > span:nth-child(7){
+    animation-delay: .12s;
+}
+.container > span:nth-child(8){
+    animation-delay: .14s;
+}
+.container > span:nth-child(9){
+    animation-delay: .16s;
+}
+.container > span:nth-child(10){
+    animation-delay: .18s;
+}
+.container > span:nth-child(11){
+    animation-delay: .20s;
+}
+.container > span:nth-child(12){
+    animation-delay: .22s;
+}
+.container > span:nth-child(13){
+    animation-delay: .24s;
+}
+.container > span:nth-child(14){
+    animation-delay: .26s;
+}
+.container > span:nth-child(15){
+    animation-delay: .28s;
+}
+.container > span:nth-child(16){
+    animation-delay: .30s;
+}
+
+.bulan{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: yellow;
+    top: 100px;
+    left:200px;
+    box-shadow:0px 0px 10px yellow;
+}
+
+.stars{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    background-image: 
+    radial-gradient(white, black),
+    radial-gradient(white, black),
+    radial-gradient(white, black),
+    radial-gradient(white, black),
+    radial-gradient(white, black),
+    radial-gradient(white, black),
+    radial-gradient(white, black),
+    radial-gradient(white, black),
+    radial-gradient(white, black),
+    radial-gradient(white, black),
+    radial-gradient(white, black),
+    radial-gradient(white, black);
+    
+    background-repeat: no-repeat;
+    background-size: 5px 5px;
+    background-position: 20% 40%, 40% 60%, 5% 60%, 85% 10%, 25% 90%, 10% 25%, 32% 10%, 80% 75%, 70% 10%, 50% 90%, 60% 60%, 95% 95%;
+}
+
+.container-petasan{
+    position: absolute;
+    width: 100%;
+}
+
+@keyframes petasanjangwe{
+    0%{
+        transform: translateY(120vh);
+    }
+    50%{
+        width: 10px;
+        height: 10px;
+        opacity: 1;
+
+    }
+    75%{
+        width: 10px;
+        height: 10px;
+        opacity: 1;
+    }
+    100%{
+        width: 150px;
+        height: 150px;
+        opacity: 0;
+    }
+}
+
+.petasan,
+.petasan3,
+.petasan4{
+    position: absolute;
+    top: -40%;
+    left: 10%;
+    border-radius: 30%;
+    width: 10px;
+    height: 10px;
+    background-image: radial-gradient(red, black), 
+    radial-gradient(pink, black), 
+    radial-gradient(orange, black),
+    radial-gradient(purple, black),
+    radial-gradient(green, black),
+    radial-gradient(rgb(2, 252, 231), black),
+    radial-gradient(rgb(5, 152, 236), black),
+    radial-gradient(rgb(15, 141, 103), black),
+    radial-gradient(rgb(163, 25, 25), black),
+    radial-gradient(rgb(133, 18, 133), black),
+    radial-gradient(yellow, black),
+    radial-gradient(pink, black),
+    radial-gradient(rgb(2, 252, 231), black),
+    radial-gradient(rgb(192, 137, 34), black),
+    radial-gradient(rgb(255, 255, 255), black),
+    radial-gradient(rgb(255, 255, 255), black),
+    radial-gradient(rgb(5, 152, 236), black),
+    radial-gradient(rgb(25, 5, 201), black),
+    radial-gradient(red, black),
+    radial-gradient(purple, black),
+    radial-gradient(#d3fa00, black),
+    radial-gradient(#d3fa00, black);
+    
+    background-position: 30% 90%, 50% 50%, 10% 20%, 30% 30%, 0 40%, 65% 25%, 35% 45%, 45% 0, 80% 50%, 70% 40%, 100% 100%, 95% 30%, 10% 65%, 70% 75%, 65% 100%, 100% 0, 0 0, 95% 80%, 95% 65%, 0 95%, 75% 10%, 40% 75%;
+    background-size: 10px 10px;
+    transform: translate(-40%, -50%);
+    backdrop-filter:blur(10px);
+    background-repeat: no-repeat;
+    animation: petasanjangwe 2s  infinite;
+    z-index: 1000;
+}
+
+.petasan3{
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-20%, -30%);
+}
+
+.petasan4{
+    position: absolute;
+    left: 90%;
+    top: 70%;
+    transform: translate(-40%, -10%);
+}
+
+
+@keyframes petasanroket{
+    0%{
+        transform: translateY(100vh);
+    }
+    50%{
+        width: 10px;
+        height: 10px;
+        opacity: 1;
+    }
+    75%{
+        width: 10px;
+        height: 10px;
+        opacity: 1;
+    }
+    100%{
+        width: 150px;
+        height: 150px;
+        opacity: 0;
+    }
+}
+
+.petasan2,
+.petasan5{
+    position: absolute;
+    left: 30%;
+    top: 60%;
+    border-radius: 30%;
+    background-image: radial-gradient(rgb(203, 4, 230), rgb(0, 0, 0)), 
+    radial-gradient(#f78181, black), 
+    radial-gradient(rgb(207, 146, 146), black),
+    radial-gradient(rgb(73, 136, 48), black),
+    radial-gradient(white, black),
+    radial-gradient(rgb(202, 99, 99), black),
+    radial-gradient(rgb(33, 91, 124), black),
+    radial-gradient(rgb(244, 255, 252), black),
+    radial-gradient(rgb(255, 254, 254), black),
+    radial-gradient(rgb(238, 226, 238), black),
+    radial-gradient(rgb(235, 235, 203), white),
+    radial-gradient(rgb(224, 210, 213), black),
+    radial-gradient(rgb(170, 184, 182), black),
+    radial-gradient(rgb(219, 212, 198), black),
+    radial-gradient(rgb(255, 255, 255), black),
+    radial-gradient(rgb(255, 255, 255), black),
+    radial-gradient(rgb(206, 215, 221), black),
+    radial-gradient(rgb(186, 184, 199), black),
+    radial-gradient(rgb(221, 193, 193), black),
+    radial-gradient(rgb(221, 189, 221), black),
+    radial-gradient(#e3ecb0, black),
+    radial-gradient(#dfe4c3, black);
+    background-position: 30% 90%, 50% 50%, 10% 20%, 30% 30%, 0 40%, 65% 25%, 35% 45%, 45% 0, 80% 50%, 70% 40%, 100% 100%, 95% 30%, 10% 65%, 70% 75%, 65% 100%, 100% 0, 0 0, 95% 80%, 95% 65%, 0 95%, 75% 10%, 40% 75%;
+    animation: petasanroket 3s infinite;
+    background-size: 10px 10px;
+    transform: translate(-40%, -50%);
+    background-repeat: no-repeat;
+    z-index: 100;
+    
+}
+
+.petasan5{
+    position: absolute;
+    left: 70%;
+    top: 20%;
+    transform: translate(-40%, -10%);
+
+}
+
+footer{
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins' , cursive;
+}
+
+
+
+@media only screen and (max-width: 580px) {
+    .container{
+        font-size: 2rem;
+    }
+  footer{
+    margin-top: 10px;
+    font-size: 15px;
+  }
+}
